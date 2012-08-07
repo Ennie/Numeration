@@ -533,9 +533,10 @@ do
 				addPlayerPet("raid"..i, "raid"..i.."pet")
 			end
 		else
+			addPlayerPet("player", "pet")
 			num = GetNumSubgroupMembers()
 			for i = 1, num do
-				addPlayerPet("raid"..i, "raid"..i.."pet")
+				addPlayerPet("party"..i, "party"..i.."pet")
 			end
 		end
 
